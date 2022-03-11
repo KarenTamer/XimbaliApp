@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bQroo"
+        android:layout_width="409dp"
+        android:layout_height="58dp"
+        android:text="@string/Estado1"
+        app:icon="@drawable/icon"
+        app:iconSize="40dp"
+        app:iconTintMode="multiply"
+        app:layout_constraintBottom_toTopOf="@+id/bCam"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="2dp" />
+
+    <Button
+        android:id="@+id/bCam"
+        android:layout_width="409dp"
+        android:layout_height="58dp"
+        android:text="@string/Estado2"
+        app:icon="@drawable/icon"
+        app:iconSize="40dp"
+        app:iconTintMode="multiply"
+        app:layout_constraintBottom_toTopOf="@+id/bVer"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="2dp" />
+
+    <Button
+        android:id="@+id/bVer"
+        android:layout_width="409dp"
+        android:layout_height="58dp"
+        android:text="@string/Estado3"
+        app:icon="@drawable/icon"
+        app:iconSize="40dp"
+        app:iconTintMode="multiply"
+        app:layout_constraintBottom_toTopOf="@+id/bMich"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <Button
+        android:id="@+id/bMich"
+        android:layout_width="409dp"
+        android:layout_height="58dp"
+        android:text="@string/Estado4"
+        app:icon="@drawable/icon"
+        app:iconSize="40dp"
+        app:iconTintMode="multiply"
+        app:layout_constraintBottom_toTopOf="@+id/bSin"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <Button
+        android:id="@+id/bSin"
+        android:layout_width="409dp"
+        android:layout_height="58dp"
+        android:text="@string/Estado5"
+        app:icon="@drawable/icon"
+        app:iconSize="40dp"
+        app:iconTintMode="multiply"
+        app:layout_constraintBottom_toTopOf="@+id/bMex"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <Button
+        android:id="@+id/bMex"
+        android:layout_width="409dp"
+        android:layout_height="58dp"
+        android:text="@string/Estado6"
+        app:icon="@drawable/icon"
+        app:iconSize="40dp"
+        app:iconTintMode="multiply"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+
+
+</LinearLayout>

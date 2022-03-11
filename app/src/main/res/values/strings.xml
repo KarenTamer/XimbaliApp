@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">XimbaliApp</string>
+    <string name="Estado1">QuintanaRoo</string>
+    <string name="Estado2">Campeche</string>
+    <string name="Estado3">Veracruz</string>
+    <string name="Estado4">Michoacan</string>
+    <string name="Estado5">Sinaloa</string>
+    <string name="Estado6">México</string>
+
+    <string name="LugarTuristicoQroo1">Zona Arqueológica</string>
+    <string name="LugarTuristicoQroo2">Parque Xcaret</string>
+    <string name="LugarTuristicoQroo3">Cenote Dos Ojos</string>
+    <string name="LugarTuristicoQroo4">Museo TravelArt</string>
+    <string name="LugarTuristicoQroo5">Reserva de la Biósfera</string>
+    <string name="LugarTuristicoQroo6">Playa Norte</string>
+
+
+</resources>
