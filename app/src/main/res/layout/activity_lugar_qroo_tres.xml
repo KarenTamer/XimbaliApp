@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/purple_200"
-    tools:context=".LugarQrooDos">
+    tools:context=".LugarQrooTres">
 
     <ImageView
         android:id="@+id/imagenLugar"
@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tituloLugar"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/qroo2"
+        app:srcCompat="@drawable/qroo3"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
         android:fontFamily="sans-serif-condensed-medium"
-        android:text="@string/LugarTuristicoQroo2"
+        android:text="@string/LugarTuristicoQroo3"
         android:textColor="@color/white"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,7 +40,7 @@
         android:layout_height="271dp"
         android:layout_marginBottom="8dp"
         android:fontFamily="sans-serif-light"
-        android:text="@string/TextoLugarQroo2"
+        android:text="@string/TextoLugarQroo3"
         android:textColor="@color/white"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/bRegresar"

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,68 +10,23 @@
     tools:context=".LugaresTuristicosQroo">
 
     <Button
-        android:id="@+id/bLugarUno"
-        android:layout_width="174dp"
-        android:layout_height="201dp"
-        android:text="@string/LugarTuristicoQroo1"
-        android:textAlignment="center"
-        app:icon="@drawable/qroo1"
-        app:iconGravity="textTop"
-        app:iconPadding="15dp"
-        app:iconSize="125dp"
-        app:iconTintMode="multiply"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="38dp" />
-
-    <Button
-        android:id="@+id/bLugarDos"
-        android:layout_width="174dp"
-        android:layout_height="201dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginBottom="24dp"
-        android:text="@string/LugarTuristicoQroo2"
-        android:textAlignment="center"
-        app:icon="@drawable/qroo2"
-        app:iconGravity="textTop"
-        app:iconPadding="15dp"
-        app:iconSize="125dp"
-        app:iconTintMode="multiply"
-        app:layout_constraintBottom_toTopOf="@+id/bLugarCuatro"
+        android:id="@+id/bRegresarEstadosQroo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGRESAR"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/bLugarUno"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.95"
-        app:layout_goneMarginBottom="@dimen/cardview_default_radius"
-        tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/bLugarTres"
-        android:layout_width="174dp"
-        android:layout_height="201dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="16dp"
-        android:text="@string/LugarTuristicoQroo3"
-        android:textAlignment="center"
-        app:icon="@drawable/qroo3"
-        app:iconGravity="textTop"
-        app:iconPadding="15dp"
-        app:iconSize="125dp"
-        app:iconTintMode="multiply"
-        app:layout_constraintEnd_toStartOf="@+id/bLugarCuatro"
-        app:layout_constraintHorizontal_bias="0.869"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bLugarUno"
-        app:layout_goneMarginBottom="@dimen/cardview_default_radius"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
 
     <Button
         android:id="@+id/bLugarCuatro"
         android:layout_width="174dp"
         android:layout_height="201dp"
         android:layout_marginEnd="24dp"
-        android:layout_marginBottom="28dp"
+        android:layout_marginBottom="12dp"
         android:text="@string/LugarTuristicoQroo4"
         android:textAlignment="center"
         app:icon="@drawable/qroo4"
@@ -84,11 +39,31 @@
         app:layout_goneMarginBottom="@dimen/cardview_default_radius" />
 
     <Button
+        android:id="@+id/bLugarTres"
+        android:layout_width="174dp"
+        android:layout_height="201dp"
+        android:layout_marginTop="12dp"
+        android:paddingTop="5dp"
+        android:text="@string/LugarTuristicoQroo3"
+        android:textAlignment="center"
+        app:icon="@drawable/qroo3"
+        app:iconGravity="textTop"
+        app:iconPadding="15dp"
+        app:iconSize="125dp"
+        app:iconTintMode="multiply"
+        app:layout_constraintEnd_toStartOf="@+id/bLugarCuatro"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bLugarUno"
+        tools:ignore="MissingConstraints" />
+
+    <Button
         android:id="@+id/bLugarCinco"
         android:layout_width="174dp"
         android:layout_height="201dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="80dp"
+        android:paddingTop="5dp"
         android:text="@string/LugarTuristicoQroo5"
         android:textAlignment="center"
         app:icon="@drawable/qroo5"
@@ -98,18 +73,36 @@
         app:iconTintMode="multiply"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/bLugarSeis"
-        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bLugarTres"
-        app:layout_constraintVertical_bias="1.0"
-        app:layout_goneMarginBottom="@dimen/cardview_default_radius" />
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/bLugarUno"
+        android:layout_width="174dp"
+        android:layout_height="201dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/Beige"
+        android:paddingTop="5dp"
+        android:text="@string/LugarTuristicoQroo1"
+        android:textAlignment="center"
+        app:icon="@drawable/qroo1"
+        app:iconGravity="textTop"
+        app:iconPadding="15dp"
+        app:iconSize="125dp"
+        app:iconTintMode="multiply"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/bLugarSeis"
         android:layout_width="174dp"
         android:layout_height="201dp"
         android:layout_marginEnd="24dp"
-        android:layout_marginBottom="36dp"
+        android:layout_marginBottom="80dp"
+        android:paddingTop="5dp"
         android:text="@string/LugarTuristicoQroo6"
         android:textAlignment="center"
         app:icon="@drawable/qroo6"
@@ -121,5 +114,26 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_goneMarginBottom="@dimen/cardview_default_radius" />
 
+    <Button
+        android:id="@+id/bLugarDos"
+        android:layout_width="174dp"
+        android:layout_height="201dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:paddingTop="5dp"
+        android:text="@string/LugarTuristicoQroo2"
+        android:textAlignment="center"
+        app:icon="@drawable/qroo2"
+        app:iconGravity="textTop"
+        app:iconPadding="15dp"
+        app:iconSize="125dp"
+        app:iconTintMode="multiply"
+        app:layout_constraintBottom_toTopOf="@+id/bLugarCuatro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/bLugarUno"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
-</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

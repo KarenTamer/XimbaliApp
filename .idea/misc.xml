@@ -3,8 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/karen/AndroidStudioProjects/XimbaliApp2/app/src/main/res/layout/activity_lugar_qroo.xml" value="0.16621376811594202" />
+        <entry key="..\:/Users/karen/AndroidStudioProjects/XimbaliApp2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/karen/AndroidStudioProjects/XimbaliApp2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/karen/AndroidStudioProjects/XimbaliApp2/app/src/main/res/layout/activity_lugar_qroo.xml" value="0.16" />
+        <entry key="..\:/Users/karen/AndroidStudioProjects/XimbaliApp2/app/src/main/res/layout/activity_lugar_qroo_cinco.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/karen/AndroidStudioProjects/XimbaliApp2/app/src/main/res/layout/activity_lugar_qroo_cuatro.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/karen/AndroidStudioProjects/XimbaliApp2/app/src/main/res/layout/activity_lugar_qroo_dos.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/karen/AndroidStudioProjects/XimbaliApp2/app/src/main/res/layout/activity_lugar_qroo_seis.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/karen/AndroidStudioProjects/XimbaliApp2/app/src/main/res/layout/activity_lugar_qroo_tres.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/karen/AndroidStudioProjects/XimbaliApp2/app/src/main/res/layout/activity_lugares_turisticos_qroo.xml" value="0.25" />
         <entry key="..\:/Users/karen/AndroidStudioProjects/XimbaliApp2/app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>

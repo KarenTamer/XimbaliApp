@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.XimbaliApp">
         <activity
+            android:name=".LugarQrooSeis"
+            android:exported="false" />
+        <activity
+            android:name=".LugarQrooCinco"
+            android:exported="false" />
+        <activity
+            android:name=".LugarQrooCuatro"
+            android:exported="false" />
+        <activity
+            android:name=".LugarQrooTres"
+            android:exported="false" />
+        <activity
             android:name=".LugarQrooDos"
             android:exported="false" />
         <activity
