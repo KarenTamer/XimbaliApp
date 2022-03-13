@@ -10,6 +10,114 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.XimbaliApp">
         <activity
+            android:name=".LugarSinSeis"
+            android:exported="false" />
+        <activity
+            android:name=".LugarSinCinco"
+            android:exported="false" />
+        <activity
+            android:name=".LugarSinCuatro"
+            android:exported="false" />
+        <activity
+            android:name=".LugarSinTres"
+            android:exported="false" />
+        <activity
+            android:name=".LugarSinDos"
+            android:exported="false" />
+        <activity
+            android:name=".LugarSin"
+            android:exported="false" />
+        <activity
+            android:name=".LugarMichSeis"
+            android:exported="false" />
+        <activity
+            android:name=".LugarMichCinco"
+            android:exported="false" />
+        <activity
+            android:name=".LugarMichCuatro"
+            android:exported="false" />
+        <activity
+            android:name=".LugarMichTres"
+            android:exported="false" />
+        <activity
+            android:name=".LugarMichDos"
+            android:exported="false" />
+        <activity
+            android:name=".LugarMich"
+            android:exported="false" />
+        <activity
+            android:name=".LugarVerSeis"
+            android:exported="false" />
+        <activity
+            android:name=".LugarVerCinco"
+            android:exported="false" />
+        <activity
+            android:name=".LugarVerCuatro"
+            android:exported="false" />
+        <activity
+            android:name=".LugarVerTres"
+            android:exported="false" />
+        <activity
+            android:name=".LugarVerDos"
+            android:exported="false" />
+        <activity
+            android:name=".LugarVer"
+            android:exported="false" />
+        <activity
+            android:name=".LugarMexSeis"
+            android:exported="false" />
+        <activity
+            android:name=".LugarMexCinco"
+            android:exported="false" />
+        <activity
+            android:name=".LugarMexCuatro"
+            android:exported="false" />
+        <activity
+            android:name=".LugarMexTres"
+            android:exported="false" />
+        <activity
+            android:name=".LugarMexDos"
+            android:exported="false" />
+        <activity
+            android:name=".LugarMex"
+            android:exported="false" />
+        <activity
+            android:name=".LugarCamSeis"
+            android:exported="false" />
+        <activity
+            android:name=".LugarCamCinco"
+            android:exported="false" />
+        <activity
+            android:name=".LugarCamCuatro"
+            android:exported="false" />
+        <activity
+            android:name=".LugarCamTres"
+            android:exported="false" />
+        <activity
+            android:name=".LugarCamDos"
+            android:exported="false" />
+        <activity
+            android:name=".LugarCam"
+            android:exported="false" />
+        <activity
+            android:name=".LugaresTuristicosVer"
+            android:exported="false" />
+        <activity
+            android:name=".LugaresTuristicosMex"
+            android:exported="false" />
+        <activity
+            android:name=".LugaresTuristicosSin"
+            android:exported="false" />
+        <activity
+            android:name=".LugaresTuristicosMich"
+            android:exported="false" />
+        <activity
+            android:name=".Ver"
+            android:exported="false" />
+        <activity
+            android:name=".LugaresTuristicosCam"
+            android:exported="false" />
+        <activity
             android:name=".LugarQrooSeis"
             android:exported="false" />
         <activity
