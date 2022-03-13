@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">XimbaliApp</string>
-    <string name="Estado1">QuintanaRoo</string>
+    <string name="Estado1">Quintana Roo</string>
     <string name="Estado2">Campeche</string>
     <string name="Estado3">Veracruz</string>
     <string name="Estado4">Michoacan</string>
@@ -14,6 +14,42 @@
     <string name="LugarTuristicoQroo5">Reserva de la Biósfera</string>
     <string name="LugarTuristicoQroo6">Playa Norte</string>
 
+    <string name="LugarTuristicoCam1">Zona Arqueológica</string>
+    <string name="LugarTuristicoCam2">Zona Arqueológica</string>
+    <string name="LugarTuristicoCam3">Zona Arqueológica</string>
+    <string name="LugarTuristicoCam4">Zona Arqueológica</string>
+    <string name="LugarTuristicoCam5">Zona Arqueológica</string>
+    <string name="LugarTuristicoCam6">Zona Arqueológica</string>
+
+    <string name="LugarTuristicoVer1">Zona Arqueológica</string>
+    <string name="LugarTuristicoVer2">Zona Arqueológica</string>
+    <string name="LugarTuristicoVer3">Zona Arqueológica</string>
+    <string name="LugarTuristicoVer4">Zona Arqueológica</string>
+    <string name="LugarTuristicoVer5">Zona Arqueológica</string>
+    <string name="LugarTuristicoVer6">Zona Arqueológica</string>
+
+    <string name="LugarTuristicoMich1">Zona Arqueológica</string>
+    <string name="LugarTuristicoMich2">Zona Arqueológica</string>
+    <string name="LugarTuristicoMich3">Zona Arqueológica</string>
+    <string name="LugarTuristicoMich4">Zona Arqueológica</string>
+    <string name="LugarTuristicoMich5">Zona Arqueológica</string>
+    <string name="LugarTuristicoMich6">Zona Arqueológica</string>
+
+    <string name="LugarTuristicoSin1">Zona Arqueológica</string>
+    <string name="LugarTuristicoSin2">Zona Arqueológica</string>
+    <string name="LugarTuristicoSin3">Zona Arqueológica</string>
+    <string name="LugarTuristicoSin4">Zona Arqueológica</string>
+    <string name="LugarTuristicoSin5">Zona Arqueológica</string>
+    <string name="LugarTuristicoSin6">Zona Arqueológica</string>
+
+
+    <string name="LugarTuristicoMex1">Zona Arqueológica</string>
+    <string name="LugarTuristicoMex2">Zona Arqueológica</string>
+    <string name="LugarTuristicoMex3">Zona Arqueológica</string>
+    <string name="LugarTuristicoMex4">Zona Arqueológica</string>
+    <string name="LugarTuristicoMex5">Zona Arqueológica</string>
+    <string name="LugarTuristicoMex6">Zona Arqueológica</string>
+
     <string name="TextoLugarQroo1">Tulum fue una ciudad amurallada de la cultura maya ubicada en el Estado de Quintana Roo, en el sureste de México, en la costa del mar Caribe. Es en la actualidad un gran atractivo turístico de la Riviera Maya y junto a ella se encuentra la moderna población del mismo nombre, Tulum. La ciudad maya se encuentra dentro del denominado Parque Nacional Tulum</string>
     <string name="TextoLugarQroo2">Xcaret es un parque acuático, temático, de diversiones, eco-arqueológico y más, en un solo lugar. Por su ubicación privilegiada en la selva maya entre ríos subterráneos, cenotes y frente al imponente mar Caribe, tiene impresionantes escenarios, los cuáles puedes disfrutar en diferentes actividades que aprovecha al máximo cada uno de ellos. Además de la asombrosa naturaleza, Xcaret es un parque temático en Cancún y Rivera Maya que celebra el presente y la rica historia del pasado de México, un país reconocido por sus tradiciones y cultura folclórica.</string>
     <string name="TextoLugarQroo3">Cenote Dos Ojos es un sistema de cuevas inundadas, cuenta con una profundidad de 17 metros y es considerado uno de los cenotes con las cavernas subterráneas más largas. Su agua es color azul turquesa, en donde habita una gran cantidad de sorprendente fauna marina, rodeado por milenarias estalactitas y estalagmitas.</string>
@@ -21,5 +57,40 @@
     <string name="TextoLugarQroo5">La Reserva de la Biósfera de Sian Ka an es un espacio natural protegido que se localiza en la costa caribeña del estado de Quintana Roo, México. Fue declarada Patrimonio de la Humanidad por la Unesco en el año 1987 y sitio Ramsar en 2003. ​</string>
     <string name="TextoLugarQroo6">Playa Norte es famosa por sus aguas tranquilas y cristalinas, que dan la sensación de estar en una inmensa piscina azul. Es una playa pública con una extensión de casi 1.000 metros y de arena blanca. Las aguas son de poca profundidad y puedes adentrarte hasta 200 metros sin que sobrepase tu cintura.</string>
 
+    <string name="TextoLugarCam1">Museo Subacuático</string>
+    <string name="TextoLugarCam2">Museo Subacuático</string>
+    <string name="TextoLugarCam3">Museo Subacuático</string>
+    <string name="TextoLugarCam4">Museo Subacuático</string>
+    <string name="TextoLugarCam5">Museo Subacuático</string>
+    <string name="TextoLugarCam6">Museo Subacuático</string>
+
+    <string name="TextoLugarVer1">Museo Subacuático</string>
+    <string name="TextoLugarVer2">Museo Subacuático</string>
+    <string name="TextoLugarVer3">Museo Subacuático</string>
+    <string name="TextoLugarVer4">Museo Subacuático</string>
+    <string name="TextoLugarVer5">Museo Subacuático</string>
+    <string name="TextoLugarVer6">Museo Subacuático</string>
+
+    <string name="TextoLugarMich1">Museo Subacuático</string>
+    <string name="TextoLugarMich2">Museo Subacuático</string>
+    <string name="TextoLugarMich3">Museo Subacuático</string>
+    <string name="TextoLugarMich4">Museo Subacuático</string>
+    <string name="TextoLugarMich5">Museo Subacuático</string>
+    <string name="TextoLugarMich6">Museo Subacuático</string>
+
+
+    <string name="TextoLugarSin1">Museo Subacuático</string>
+    <string name="TextoLugarSin2">Museo Subacuático</string>
+    <string name="TextoLugarSin3">Museo Subacuático</string>
+    <string name="TextoLugarSin4">Museo Subacuático</string>
+    <string name="TextoLugarSin5">Museo Subacuático</string>
+    <string name="TextoLugarSin6">Museo Subacuático</string>
+
+    <string name="TextoLugarMex1">Museo Subacuático</string>
+    <string name="TextoLugarMex2">Museo Subacuático</string>
+    <string name="TextoLugarMex3">Museo Subacuático</string>
+    <string name="TextoLugarMex4">Museo Subacuático</string>
+    <string name="TextoLugarMex5">Museo Subacuático</string>
+    <string name="TextoLugarMex6">Museo Subacuático</string>
 
 </resources>
