@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.XimbaliApp">
         <activity
+            android:name=".ListEstados"
+            android:exported="false" />
+        <activity
             android:name=".LugarSinSeis"
             android:exported="false" />
         <activity

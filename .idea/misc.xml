@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Users/karen/AndroidStudioProjects/XimbaliApp2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Users/karen/AndroidStudioProjects/XimbaliApp2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/karen/AndroidStudioProjects/XimbaliApp2/app/src/main/res/layout/activity_list_estados.xml" value="0.15353260869565216" />
         <entry key="..\:/Users/karen/AndroidStudioProjects/XimbaliApp2/app/src/main/res/layout/activity_lugar_cam.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/karen/AndroidStudioProjects/XimbaliApp2/app/src/main/res/layout/activity_lugar_cam_cinco.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/karen/AndroidStudioProjects/XimbaliApp2/app/src/main/res/layout/activity_lugar_cam_cuatro.xml" value="0.22447916666666667" />
@@ -47,7 +48,7 @@
         <entry key="..\:/Users/karen/AndroidStudioProjects/XimbaliApp2/app/src/main/res/layout/activity_lugares_turisticos_qroo.xml" value="0.25" />
         <entry key="..\:/Users/karen/AndroidStudioProjects/XimbaliApp2/app/src/main/res/layout/activity_lugares_turisticos_sin.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/karen/AndroidStudioProjects/XimbaliApp2/app/src/main/res/layout/activity_lugares_turisticos_ver.xml" value="0.22447916666666667" />
-        <entry key="..\:/Users/karen/AndroidStudioProjects/XimbaliApp2/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/karen/AndroidStudioProjects/XimbaliApp2/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/karen/AndroidStudioProjects/XimbaliApp2/app/src/main/res/layout/activity_ver.xml" value="0.22447916666666667" />
       </map>
     </option>
