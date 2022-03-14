@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/purple_500"
+    android:background="@color/Morado"
     tools:context=".LugaresTuristicosMex">
 
     <Button
@@ -17,14 +17,16 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintVertical_bias="0.976"
+        android:backgroundTint="@color/MoradoMedio"/>
 
     <Button
         android:id="@+id/bLugarCuatro"
         android:layout_width="174dp"
         android:layout_height="201dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="@color/Morado"
         android:text="@string/LugarTuristicoMex4"
         android:textAlignment="center"
         app:icon="@drawable/mex4"
@@ -53,13 +55,15 @@
         app:layout_constraintHorizontal_bias="0.41"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bLugarUno"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        android:backgroundTint="@color/Morado"/>
 
     <Button
         android:id="@+id/bLugarUno"
         android:layout_width="174dp"
         android:layout_height="201dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="@color/Morado"
         android:paddingTop="5dp"
         android:text="@string/LugarTuristicoMex1"
         android:textAlignment="center"
@@ -69,7 +73,7 @@
         app:iconSize="125dp"
         app:iconTintMode="multiply"
         app:layout_constraintEnd_toStartOf="@+id/bLugarCuatro"
-        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
@@ -80,6 +84,7 @@
         android:layout_height="201dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="80dp"
+        android:backgroundTint="@color/Morado"
         android:paddingTop="5dp"
         android:text="@string/LugarTuristicoMex5"
         android:textAlignment="center"
@@ -93,14 +98,15 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bLugarTres"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/bLugarSeis"
         android:layout_width="174dp"
         android:layout_height="201dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="80dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="@color/Morado"
         android:paddingTop="5dp"
         android:text="@string/LugarTuristicoMex6"
         android:textAlignment="center"
@@ -118,7 +124,8 @@
         android:layout_width="174dp"
         android:layout_height="201dp"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginEnd="28dp"
+        android:backgroundTint="@color/Morado"
         android:paddingTop="5dp"
         android:text="@string/LugarTuristicoMex2"
         android:textAlignment="center"
@@ -130,14 +137,16 @@
         app:layout_constraintBottom_toTopOf="@+id/bLugarCuatro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.7" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="361dp"
-        android:layout_height="37dp"
+        android:layout_width="415dp"
+        android:layout_height="47dp"
         android:layout_marginTop="4dp"
+        android:background="@color/MoradoMedio"
         android:fontFamily="sans-serif-condensed"
+        android:paddingTop="7dp"
         android:text="@string/LtMex"
         android:textAlignment="center"
         android:textColor="@color/white"

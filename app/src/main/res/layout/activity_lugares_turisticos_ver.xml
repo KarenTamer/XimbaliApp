@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/purple_500"
+    android:background="@color/Morado"
     tools:context=".LugaresTuristicosVer">
 
     <Button
         android:id="@+id/bRegresarEstadosVer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/MoradoMedio"
         android:text="REGRESAR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,7 +25,8 @@
         android:layout_width="174dp"
         android:layout_height="201dp"
         android:layout_marginEnd="24dp"
-        android:layout_marginBottom="12dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="@color/Morado"
         android:text="@string/LugarTuristicoVer4"
         android:textAlignment="center"
         app:icon="@drawable/ver4"
@@ -53,13 +55,15 @@
         app:layout_constraintHorizontal_bias="0.41"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bLugarUno"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        android:backgroundTint="@color/Morado"/>
 
     <Button
         android:id="@+id/bLugarUno"
         android:layout_width="174dp"
         android:layout_height="201dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/Morado"
         android:paddingTop="5dp"
         android:text="@string/LugarTuristicoVer1"
         android:textAlignment="center"
@@ -80,6 +84,7 @@
         android:layout_height="201dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="80dp"
+        android:backgroundTint="@color/Morado"
         android:paddingTop="5dp"
         android:text="@string/LugarTuristicoVer5"
         android:textAlignment="center"
@@ -93,14 +98,15 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bLugarTres"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/bLugarSeis"
         android:layout_width="174dp"
         android:layout_height="201dp"
         android:layout_marginEnd="24dp"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="76dp"
+        android:backgroundTint="@color/Morado"
         android:paddingTop="5dp"
         android:text="@string/LugarTuristicoVer6"
         android:textAlignment="center"
@@ -119,6 +125,7 @@
         android:layout_height="201dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
+        android:backgroundTint="@color/Morado"
         android:paddingTop="5dp"
         android:text="@string/LugarTuristicoVer2"
         android:textAlignment="center"
@@ -130,19 +137,22 @@
         app:layout_constraintBottom_toTopOf="@+id/bLugarCuatro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.625" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="361dp"
-        android:layout_height="37dp"
+        android:layout_width="418dp"
+        android:layout_height="35dp"
         android:layout_marginTop="4dp"
+        android:background="@color/MoradoMedio"
         android:fontFamily="sans-serif-condensed"
+        android:paddingTop="7dp"
         android:text="@string/LtVer"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/purple_500"
+    android:background="@color/Morado"
     tools:context=".LugaresTuristicosSin">
 
     <Button
@@ -17,14 +17,16 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintVertical_bias="0.976"
+        android:backgroundTint="@color/MoradoMedio"/>
 
     <Button
         android:id="@+id/bLugarCuatro"
         android:layout_width="174dp"
         android:layout_height="201dp"
         android:layout_marginEnd="24dp"
-        android:layout_marginBottom="12dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="@color/Morado"
         android:text="@string/LugarTuristicoSin4"
         android:textAlignment="center"
         app:icon="@drawable/sin4"
@@ -40,7 +42,8 @@
         android:id="@+id/bLugarTres"
         android:layout_width="174dp"
         android:layout_height="201dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/Morado"
         android:paddingTop="5dp"
         android:text="@string/LugarTuristicoSin3"
         android:textAlignment="center"
@@ -59,7 +62,8 @@
         android:id="@+id/bLugarUno"
         android:layout_width="174dp"
         android:layout_height="201dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/Morado"
         android:paddingTop="5dp"
         android:text="@string/LugarTuristicoSin1"
         android:textAlignment="center"
@@ -79,7 +83,8 @@
         android:layout_width="174dp"
         android:layout_height="201dp"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="76dp"
+        android:backgroundTint="@color/Morado"
         android:paddingTop="5dp"
         android:text="@string/LugarTuristicoSin5"
         android:textAlignment="center"
@@ -100,7 +105,8 @@
         android:layout_width="174dp"
         android:layout_height="201dp"
         android:layout_marginEnd="24dp"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="76dp"
+        android:backgroundTint="@color/Morado"
         android:paddingTop="5dp"
         android:text="@string/LugarTuristicoSin6"
         android:textAlignment="center"
@@ -119,6 +125,7 @@
         android:layout_height="201dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
+        android:backgroundTint="@color/Morado"
         android:paddingTop="5dp"
         android:text="@string/LugarTuristicoSin2"
         android:textAlignment="center"
@@ -130,14 +137,16 @@
         app:layout_constraintBottom_toTopOf="@+id/bLugarCuatro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.708" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="361dp"
-        android:layout_height="37dp"
+        android:layout_width="406dp"
+        android:layout_height="38dp"
         android:layout_marginTop="4dp"
+        android:background="@color/MoradoMedio"
         android:fontFamily="sans-serif-condensed"
+        android:paddingTop="7dp"
         android:text="@string/LtSin"
         android:textAlignment="center"
         android:textColor="@color/white"

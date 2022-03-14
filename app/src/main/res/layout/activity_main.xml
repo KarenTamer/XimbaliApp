@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/purple_500"
+    android:background="@color/MoradoMedio"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -12,7 +12,7 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/Beige"
+        android:background="@color/MoradoClaro"
         android:fontFamily="sans-serif-black"
         android:paddingTop="10dp"
         android:paddingBottom="15dp"
@@ -25,9 +25,11 @@
         android:id="@+id/bQroo"
         android:layout_width="409dp"
         android:layout_height="58dp"
+        android:backgroundTint="@color/MoradoMedio"
         android:fontFamily="sans-serif-black"
         android:text="@string/Estado1"
         android:textAlignment="viewStart"
+        android:textColor="@color/white"
         android:textSize="20sp"
         app:icon="@drawable/icon"
         app:iconSize="40dp"
@@ -49,7 +51,8 @@
         app:iconTintMode="multiply"
         app:layout_constraintBottom_toTopOf="@+id/bVer"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="2dp" />
+        tools:layout_editor_absoluteX="2dp"
+        android:backgroundTint="@color/MoradoMedio"/>
 
     <Button
         android:id="@+id/bVer"
@@ -64,7 +67,8 @@
         app:iconTintMode="multiply"
         app:layout_constraintBottom_toTopOf="@+id/bMich"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="1dp" />
+        tools:layout_editor_absoluteX="1dp"
+        android:backgroundTint="@color/MoradoMedio"/>
 
     <Button
         android:id="@+id/bMich"
@@ -79,7 +83,8 @@
         app:iconTintMode="multiply"
         app:layout_constraintBottom_toTopOf="@+id/bSin"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="1dp" />
+        tools:layout_editor_absoluteX="1dp"
+        android:backgroundTint="@color/MoradoMedio"/>
 
     <Button
         android:id="@+id/bSin"
@@ -94,7 +99,8 @@
         app:iconTintMode="multiply"
         app:layout_constraintBottom_toTopOf="@+id/bMex"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="1dp" />
+        tools:layout_editor_absoluteX="1dp"
+        android:backgroundTint="@color/MoradoMedio"/>
 
     <Button
         android:id="@+id/bMex"
@@ -109,7 +115,8 @@
         app:iconTintMode="multiply"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="289dp" />
+        tools:layout_editor_absoluteY="289dp"
+        android:backgroundTint="@color/MoradoMedio"/>
 
 
 </LinearLayout>
