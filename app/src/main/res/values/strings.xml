@@ -3,9 +3,18 @@
     <string name="Estado1">Quintana Roo</string>
     <string name="Estado2">Campeche</string>
     <string name="Estado3">Veracruz</string>
-    <string name="Estado4">Michoacan</string>
+    <string name="Estado4">Michoacán</string>
     <string name="Estado5">Sinaloa</string>
     <string name="Estado6">México</string>
+
+    <string name="EstadoSelect">SELECCIONE UN ESTADO:</string>
+
+    <string name="LtQroo">LUGARES TURISTICOS DE QUINTANA ROO</string>
+    <string name="LtCam">LUGARES TURISTICOS DE CAMPECHE</string>
+    <string name="LtVer">LUGARES TURISTICOS DE VERACRUZ</string>
+    <string name="LtMich">LUGARES TURISTICOS DE MICHOACÁN</string>
+    <string name="LtSin">LUGARES TURISTICOS DE SINALOA</string>
+    <string name="LtMex">LUGARES TURISTICOS DE MÉXICO</string>
 
     <string name="LugarTuristicoQroo1">Zona Arqueológica</string>
     <string name="LugarTuristicoQroo2">Parque Xcaret</string>
